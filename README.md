@@ -11,6 +11,10 @@ A powerful Chrome extension that enhances your AI prompts across any website usi
 - 🔒 **Secure Storage**: API keys stored locally using Chrome's sync storage
 - 🚀 **Real-time Enhancement**: Instantly improve prompts without leaving the page
 
+## Screenshots
+![Popup](public/popup.png)
+![options](public/options.png)
+
 ## Installation
 
 ### Load in Chrome Developer Mode
