@@ -1,4 +1,4 @@
-# ✨ Prompt Enhancer Chrome Extension
+# Prompt Enhancer Chrome Extension
 
 A powerful Chrome extension that enhances your AI prompts across any website using OpenAI, Google Gemini, or Anthropic Claude APIs.
 
@@ -10,6 +10,9 @@ A powerful Chrome extension that enhances your AI prompts across any website usi
 - 🎨 **Modern UI**: Sleek dark theme with TailwindCSS styling
 - 🔒 **Secure Storage**: API keys stored locally using Chrome's sync storage
 - 🚀 **Real-time Enhancement**: Instantly improve prompts without leaving the page
+
+## Demo
+https://drive.google.com/file/d/1xCLbQYNl602MawkQjKp7QzJ05L4o6G9r/view?usp=share_link
 
 ## Screenshots
 
