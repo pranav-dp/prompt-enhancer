@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Enhancer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="modern-popup">
+  <div class="popup-container">
+    <!-- Header -->
+    <div class="popup-header">
+      <div class="header-content">
+        <div class="logo-section">
+          <div class="logo-icon">✨</div>
+          <h1 class="logo-text">Prompt Enhancer</h1>
+        </div>
+        <button id="settingsBtn" class="settings-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="provider-info">
+        <span class="provider-label">Provider:</span>
+        <span id="currentProvider" class="provider-name">Loading...</span>
+      </div>
+      <div id="connectionStatus" class="connection-status status-disconnected">
+        <div class="status-dot"></div>
+      </div>
+    </div>
+
+    <!-- Main Action -->
+    <div class="action-section">
+      <button id="enhanceBtn" class="enhance-btn" disabled>
+        <div class="btn-content">
+          <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+          </svg>
+          <span id="enhanceBtnText">Enhance Prompt</span>
+        </div>
+      </button>
+      
+      <div class="shortcut-hint">
+        <span class="shortcut-text">Press</span>
+        <kbd class="shortcut-key">⌘⇧P</kbd>
+        <span class="shortcut-text">or</span>
+        <kbd class="shortcut-key">Ctrl+Shift+P</kbd>
+      </div>
+    </div>
+
+    <!-- Instructions -->
+    <div class="instructions-section">
+      <div class="instructions-header">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+          <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+        <span>How to use</span>
+      </div>
+      <ol class="instructions-list">
+        <li>Click on any text input field</li>
+        <li>Type your prompt</li>
+        <li>Use the button above or keyboard shortcut</li>
+        <li>Your prompt will be enhanced automatically!</li>
+      </ol>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
