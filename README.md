@@ -12,8 +12,9 @@ A powerful Chrome extension that enhances your AI prompts across any website usi
 - 🚀 **Real-time Enhancement**: Instantly improve prompts without leaving the page
 
 ## Screenshots
-![Popup](public/popup.png)
-![options](public/options.png)
+
+<img src="public/popup.png" alt="Popup" width="400">
+<img src="public/options.png" alt="Options" width="400" height="600">
 
 ## Installation
 
